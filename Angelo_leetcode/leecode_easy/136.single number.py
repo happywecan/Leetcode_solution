@@ -10,3 +10,4 @@ class Solution:
                 null_dict[i]=2
         single_key = next(k for k, v in null_dict.items() if v == 1)
         print(single_key)   # b
+        
