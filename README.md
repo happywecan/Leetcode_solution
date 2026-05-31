@@ -15,7 +15,6 @@ solutions/java/         Reviewed Java LeetCode solutions
 tests/                  Regression tests for reviewed solutions
 daily/                  Daily practice notes
 dsa/udemy/              Data-structure course exercises
-archive/legacy/          Early drafts and incomplete learning attempts
 scripts/new_problem.py   Creates a daily note and solution template
 ```
 
@@ -31,6 +30,7 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Python](solutions/python/easy/p0035_search_insert_position.py) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Python](solutions/python/easy/p0121_best_time_to_buy_and_sell_stock.py) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Python](solutions/python/easy/p0136_single_number.py) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python](solutions/python/easy/p0217_contains_duplicate.py) / [Java](solutions/java/easy/P0217_ContainsDuplicate.java) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](solutions/python/easy/p0283_move_zeroes.py) |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [Python](solutions/python/easy/p0344_reverse_string.py) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Python](solutions/python/easy/p0876_middle_of_the_linked_list.py) |
@@ -107,9 +107,3 @@ References, discussions, and AI tools may be used for review. Daily notes
 should state whether a solution was solved independently, completed after a
 hint, or reviewed with assistance. The useful signal is the reasoning,
 correction process, and ability to explain the final implementation.
-
-## Archive
-
-The archive intentionally retains early drafts and incomplete attempts. They
-are not presented as reviewed solutions. This keeps the main solution index
-clean while preserving the learning history.

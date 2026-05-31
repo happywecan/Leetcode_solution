@@ -8,6 +8,7 @@ from solutions.python.easy.p0020_valid_parentheses import Solution as ValidParen
 from solutions.python.easy.p0035_search_insert_position import Solution as SearchInsertPosition
 from solutions.python.easy.p0121_best_time_to_buy_and_sell_stock import Solution as BestStockProfit
 from solutions.python.easy.p0136_single_number import Solution as SingleNumber
+from solutions.python.easy.p0217_contains_duplicate import Solution as ContainsDuplicate
 from solutions.python.easy.p0283_move_zeroes import Solution as MoveZeroes
 from solutions.python.easy.p0344_reverse_string import Solution as ReverseString
 from solutions.python.easy.p0876_middle_of_the_linked_list import ListNode, Solution as MiddleNode
@@ -45,6 +46,11 @@ class EasySolutionTests(unittest.TestCase):
 
     def test_single_number(self) -> None:
         self.assertEqual(SingleNumber().singleNumber([4, 1, 2, 1, 2]), 4)
+
+    def test_contains_duplicate(self) -> None:
+        solution = ContainsDuplicate()
+        self.assertTrue(solution.containsDuplicate([1, 2, 3, 1]))
+        self.assertFalse(solution.containsDuplicate([1, 2, 3, 4]))
 
     def test_move_zeroes(self) -> None:
         nums = [0, 1, 0, 3, 12]
