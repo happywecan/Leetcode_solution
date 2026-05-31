@@ -11,6 +11,7 @@ solution was written without references or tooling assistance.
 
 ```text
 solutions/python/       Reviewed LeetCode solutions
+solutions/java/         Reviewed Java LeetCode solutions
 tests/                  Regression tests for reviewed solutions
 daily/                  Daily practice notes
 dsa/udemy/              Data-structure course exercises
@@ -36,26 +37,69 @@ scripts/new_problem.py   Creates a daily note and solution template
 
 ## Daily Workflow
 
-Create a template for the day's problem:
+### Python
+
+Create a Python template for the day's problem:
 
 ```bash
 python3 scripts/new_problem.py 3 longest-substring-without-repeating-characters medium
 ```
 
+Place reviewed Python solutions here:
+
+```text
+solutions/python/<difficulty>/p<number>_<problem_slug>.py
+```
+
+Example:
+
+```text
+solutions/python/easy/p0001_two_sum.py
+```
+
+### Java
+
+Place reviewed Java solutions here:
+
+```text
+solutions/java/<difficulty>/P<number>_<ProblemName>.java
+```
+
+Example:
+
+```text
+solutions/java/easy/P0001_TwoSum.java
+```
+
+Use one class per file. Keep the explanation, time complexity, and space
+complexity near the implementation.
+
+### Practice Loop
+
 Then:
 
 1. Write down the initial approach before looking up a solution.
-2. Implement or review the algorithm.
-3. Record complexity and mistakes in `daily/YYYY-MM-DD.md`.
+2. Choose Python or Java and implement or review the algorithm.
+3. Record complexity and mistakes in `daily/YYYY-MM-DD-<problem>.md`.
 4. Add tests when promoting a solution into `solutions/python/`.
 5. Commit the daily progress.
 
 ```bash
-python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v  # Run when Python solutions changed
 git add .
 git commit -m "Practice: <problem name>"
 git push origin main
 ```
+
+Java can start with direct compilation:
+
+```bash
+javac solutions/java/<difficulty>/<FILE>.java
+java -cp solutions/java/<difficulty> <CLASS_NAME>
+```
+
+When the Java solution count grows, add a small Maven or Gradle test project.
+Do not add build tooling before it solves a real maintenance problem.
 
 ## Assistance Policy
 
