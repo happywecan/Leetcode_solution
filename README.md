@@ -23,7 +23,7 @@ scripts/new_problem.py   Creates a daily note and solution template
 
 | # | Problem | Difficulty | Solution |
 | ---: | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python](solutions/python/easy/p0001_two_sum.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python](solutions/python/easy/p0001_two_sum.py) / [Java](solutions/java/easy/P0001_TwoSum.java) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Python](solutions/python/easy/p0009_palindrome_number.py) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](solutions/python/easy/p0013_roman_to_integer.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](solutions/python/easy/p0014_longest_common_prefix.py) |
