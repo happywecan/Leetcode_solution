@@ -1,0 +1,44 @@
+-- LeetCode 584: Find Customer Referee
+-- Problem: https://leetcode.com/problems/find-customer-referee/
+--
+-- Table: Customer
+--
+-- +-------------+---------+
+-- | Column Name | Type    |
+-- +-------------+---------+
+-- | id          | int     |
+-- | name        | varchar |
+-- | referee_id  | int     |
+-- +-------------+---------+
+--
+-- Goal:
+-- Return the names of customers who were not referred by the customer with id 2.
+--
+-- Testcase:
+-- +----+------+------------+
+-- | id | name | referee_id |
+-- +----+------+------------+
+-- | 1  | Will | null       |
+-- | 2  | Jane | null       |
+-- | 3  | Alex | 2          |
+-- | 4  | Bill | null       |
+-- | 5  | Zack | 1          |
+-- | 6  | Mark | 2          |
+-- +----+------+------------+
+--
+-- Expected output:
+-- +------+
+-- | name |
+-- +------+
+-- | Will |
+-- | Jane |
+-- | Bill |
+-- | Zack |
+-- +------+
+--
+-- Main concept:
+-- In SQL, referee_id <> 2 does not keep NULL rows, so we must explicitly allow
+-- referee_id IS NULL.
+SELECT name
+FROM Customer
+WHERE referee_id <> 2 OR referee_id IS NULL;

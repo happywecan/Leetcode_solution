@@ -28,17 +28,23 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [Python](solutions/python/easy/p0013_roman_to_integer.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](solutions/python/easy/p0014_longest_common_prefix.py) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Python](solutions/python/easy/p0020_valid_parentheses.py) / [Java](solutions/java/easy/P0020_ValidParentheses.java) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Java](solutions/java/easy/P0026_RemoveDuplicatesFromSortedArray.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Python](solutions/python/easy/p0035_search_insert_position.py) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Python](solutions/python/easy/p0121_best_time_to_buy_and_sell_stock.py) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Python](solutions/python/easy/p0136_single_number.py) |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Java](solutions/java/easy/P0141_LinkedListCycle.java) |
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | Easy | [SQL](solutions/sql/easy/p0182_duplicate_emails.sql) |
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | [SQL](solutions/sql/easy/p0183_customers_who_never_order.sql) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python](solutions/python/easy/p0217_contains_duplicate.py) / [Java](solutions/java/easy/P0217_ContainsDuplicate.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Python](solutions/python/easy/p0242_valid_anagram.py) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](solutions/python/easy/p0283_move_zeroes.py) / [Java](solutions/java/easy/P0283_MoveZeroes.java) |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [Python](solutions/python/easy/p0344_reverse_string.py) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [Python](solutions/python/easy/p0344_reverse_string.py) / [Java](solutions/java/easy/P0344_ReverseString.java) |
+| 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | [SQL](solutions/sql/easy/p0584_find_customer_referee.sql) |
+| 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | [SQL](solutions/sql/easy/p0595_big_countries.sql) |
+| 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | Easy | [SQL](solutions/sql/easy/p0596_classes_more_than_5_students.sql) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Java](solutions/java/easy/P0704_BinarySearch.java) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Python](solutions/python/easy/p0876_middle_of_the_linked_list.py) |
+| 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | Easy | [SQL](solutions/sql/easy/p1148_article_views_i.sql) |
 
 ## Daily Workflow
 
