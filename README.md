@@ -29,7 +29,9 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Python](solutions/python/easy/p0014_longest_common_prefix.py) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Python](solutions/python/easy/p0020_valid_parentheses.py) / [Java](solutions/java/easy/P0020_ValidParentheses.java) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Java](solutions/java/easy/P0026_RemoveDuplicatesFromSortedArray.java) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [Java](solutions/java/easy/P0027_RemoveElement.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Python](solutions/python/easy/p0035_search_insert_position.py) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [Java](solutions/java/easy/P0088_MergeSortedArray.java) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Python](solutions/python/easy/p0121_best_time_to_buy_and_sell_stock.py) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Python](solutions/python/easy/p0136_single_number.py) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Java](solutions/java/easy/P0141_LinkedListCycle.java) |
@@ -43,10 +45,12 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | [SQL](solutions/sql/easy/p0584_find_customer_referee.sql) |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | [SQL](solutions/sql/easy/p0595_big_countries.sql) |
 | 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | Easy | [SQL](solutions/sql/easy/p0596_classes_more_than_5_students.sql) |
+| 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | [SQL](solutions/sql/easy/p0610_triangle_judgement.sql) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Java](solutions/java/easy/P0704_BinarySearch.java) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Python](solutions/python/easy/p0876_middle_of_the_linked_list.py) |
 | 1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | Easy | [SQL](solutions/sql/easy/p1068_product_sales_analysis_i.sql) |
 | 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | Easy | [SQL](solutions/sql/easy/p1148_article_views_i.sql) |
+| 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Easy | [SQL](solutions/sql/easy/p1757_recyclable_and_low_fat_products.sql) |
 
 ## Daily Workflow
 
