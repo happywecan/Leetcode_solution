@@ -39,6 +39,10 @@ Use clear explanations suitable for a beginner. Prefer concrete examples over ab
 ## Implementation Rules
 
 - For Java solutions, include a small `main` method with simple sample cases when practical.
+- Add beginner-friendly comments to solution code, especially around the core
+  algorithm, important state changes, and conditions that are easy to
+  misunderstand. Explain why the code is needed instead of translating every
+  line mechanically.
 - For SQL solutions, include the problem link, table shape, goal, concept, and final query.
 - For Python solutions, add or update focused tests under `tests/` when promoting a reviewed solution.
 - Keep edits scoped to the requested practice problem and related index/note files.

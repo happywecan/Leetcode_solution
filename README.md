@@ -38,6 +38,7 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Java](solutions/java/easy/P0169_MajorityElement.java) |
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | Easy | [SQL](solutions/sql/easy/p0182_duplicate_emails.sql) |
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | [SQL](solutions/sql/easy/p0183_customers_who_never_order.sql) |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [Java](solutions/java/easy/P0205_IsomorphicStrings.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Python](solutions/python/easy/p0217_contains_duplicate.py) / [Java](solutions/java/easy/P0217_ContainsDuplicate.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Python](solutions/python/easy/p0242_valid_anagram.py) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Python](solutions/python/easy/p0283_move_zeroes.py) / [Java](solutions/java/easy/P0283_MoveZeroes.java) |
@@ -46,6 +47,7 @@ scripts/new_problem.py   Creates a daily note and solution template
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | [SQL](solutions/sql/easy/p0595_big_countries.sql) |
 | 596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | Easy | [SQL](solutions/sql/easy/p0596_classes_more_than_5_students.sql) |
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | [SQL](solutions/sql/easy/p0610_triangle_judgement.sql) |
+| 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | [SQL](solutions/sql/easy/p0619_biggest_single_number.sql) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Java](solutions/java/easy/P0704_BinarySearch.java) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Python](solutions/python/easy/p0876_middle_of_the_linked_list.py) |
 | 1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | Easy | [SQL](solutions/sql/easy/p1068_product_sales_analysis_i.sql) |
